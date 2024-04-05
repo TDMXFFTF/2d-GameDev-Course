@@ -9,5 +9,6 @@ script = ExtResource("1_t1eo5")
 autostart = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(965, 537)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
