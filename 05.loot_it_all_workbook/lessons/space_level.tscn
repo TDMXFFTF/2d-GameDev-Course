@@ -1,10 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://btkjymc78ap8d"]
+[gd_scene load_steps=4 format=3 uid="uid://btkjymc78ap8d"]
 
 [ext_resource type="PackedScene" uid="uid://dmv50krf4bo5r" path="res://lessons/ship.tscn" id="2_2j1u5"]
 [ext_resource type="PackedScene" uid="uid://comjbg2cx2k0d" path="res://lessons/random_item_placer.tscn" id="3_d2lae"]
 [ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/background/space_background.tscn" id="3_e6xy1"]
-[ext_resource type="PackedScene" uid="uid://50ewaw3ss73m" path="res://lessons/health_pack.tscn" id="4_b7std"]
-[ext_resource type="PackedScene" uid="uid://u6hl4iamljf3" path="res://lessons/gem.tscn" id="5_7jx01"]
 
 [node name="Level" type="Node2D"]
 
@@ -15,9 +13,5 @@ collision_mask = 2
 [node name="SpaceBackground" parent="." instance=ExtResource("3_e6xy1")]
 
 [node name="RandomItemPlacer" parent="." instance=ExtResource("3_d2lae")]
-position = Vector2(958, 547)
+position = Vector2(33.0001, 71)
 scale = Vector2(0.951715, 0.884773)
-
-[node name="HealthPack" parent="." instance=ExtResource("4_b7std")]
-
-[node name="Gem" parent="." instance=ExtResource("5_7jx01")]
